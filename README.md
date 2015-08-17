@@ -1,17 +1,23 @@
 # cygvagans
 Powershell script to install cygwin+ansible+vagrant on a  windows desktop.
-The scripts uses chocolatey to install cygwin and  vagrant.
+The scripts uses chocolatey to install cygwin and  vagrant packages.
 Ansible is installed using python pip.
 Virtualbox is  not installed.
 
 It is not intended as a silent installation. (questions will be asked, setups will be shown.)
-
 See the comments in the script for more details.
+
+
 
 Usage:
 Powershell -F cygwin_ansible.ps1
 
 Do not use other programs during setup.
+
+
+Using behind a corporate proxy:
+Try to use cntlm , a version with ntlm  session autentication can be found in:
+https://github.com/Evengard/cntlm (Compile in cygwin).
 
 
 Manual actions:<br>
