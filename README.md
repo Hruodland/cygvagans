@@ -10,6 +10,11 @@ See the comments in the script for more details.
 
 
 Usage:
+
+First set execution policy from a powershell prompt:  Set-ExecutionPolicy RemoteSigned.
+(If not done , you have to do ths once).
+
+Then run the install script:
 Powershell -F cygwin_ansible.ps1
 
 Do not use other programs during setup.
