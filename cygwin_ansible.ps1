@@ -95,6 +95,7 @@ $cyg_packages=@(
 "python-paramiko           ",
 "python-six                ",
 "rsync                     ",
+"unzip                     ", 
 "wget                      ",
 "which                     ",
 "windows-default-manifest  "
