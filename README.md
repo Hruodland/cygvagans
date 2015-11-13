@@ -27,7 +27,7 @@ https://github.com/Evengard/cntlm (Compile in cygwin).
 
 Manual actions:<br>
 1 Create a directory c:\tools. (Manual because you may have to use administrator)<br>
-2 Add to .bashrc or .bash-profile (cygwin ssh has ssh multiplexing issues):
+2 Add to ~/.bash_profile (cygwin ssh has ssh multiplexing issues):
   ```
   export ANSIBLE_SSH_ARGS='-o ControlMaster=no'
   ```
